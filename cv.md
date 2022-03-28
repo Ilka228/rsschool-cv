@@ -11,7 +11,8 @@
 
 ## About me
 
-I'm fourth grade student at MIPT. Learning programming for half a year. I learn new things and absorb new information in a short period of time.
+I'm fourth grade student at MIPT. Learning programming for half a year. I can learn new things and absorb new information in a short period of time.
+Currently keen on programming and spending all my free time learning that.
 
 ## Skills
 
