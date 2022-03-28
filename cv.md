@@ -24,8 +24,22 @@ Currently keen on programming and spending all my free time learning that.
 + Adobe Photoshop, Illustrator
 
 ## Code Example
+```javascript
+const format = (diffTree) => {
+  const innerFormat = (diff, path) => {
+    const callback = (obj) => {
+      const { key, type } = obj;
+      const property = path ? `${path}.${key}` : key;
 
+      return mapping[type](property, obj, innerFormat);
+    };
 
+    return diff.map(callback).filter(removeEmptyStrings).join('\n');
+  };
+
+  return innerFormat(diffTree, '');
+};
+```
 ## Education
 
 + **University:** Moscow Institute of Physics and Technology, Department of Physical and Quantum Electronics
