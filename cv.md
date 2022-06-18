@@ -50,6 +50,6 @@ const format = (diffTree) => {
 
 ## Languages
 
-+ English(B1-B2)
++ English(B2)
 + Russian(Native)
 + Belorussian(Advanced)
